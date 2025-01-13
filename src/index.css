@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#rocket {
+  color: red;
+}
+
+.throw {
+  animation: bounce-and-spin 5s infinite;
+  transform-origin: center;
+  background-color: "282c34";
+  color: blueviolet;
+}
+
+/* Bouncing keyframe */
+@keyframes bounce-and-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
